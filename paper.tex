@@ -1,0 +1,54 @@
+% -------------------------------------------------------------
+% Paper: Determinantes das coalizões sobredimensionadas (v. 1.1)
+% -------------------------------------------------------------
+
+% DOCUMENTO
+\documentclass[article, 12pt,oneside,a4paper,spanish,english,brazilian, sumario=abnt-6027-2012]{abntex2}
+\usepackage{PPGPOL}
+
+\usepackage{footmisc}
+\DefineFNsymbols{mySymbols}{{\ensuremath\dagger}{\ensuremath\ddagger}\S\P
+   *{**}{\ensuremath{\dagger\dagger}}{\ensuremath{\ddagger\ddagger}}}
+\setfnsymbol{mySymbols}
+
+\title{\Large Determinantes das coalizões governamentais\\[-0.2cm] sobredimensionadas na América Latina\thanks{Versão preliminar. NÃO CITAR.} \vspace*{1cm}}
+\author{\normalsize\scshape Fernando Meireles\\[-0.35cm] \footnotesize Universidade Federal de Minas Gerais/DCP\\[-0.35cm] \footnotesize \href{mailto:fernando.meireles@ufrgs.br}{<fernando.meireles@ufrgs.br>}}
+\date{}
+
+% TEXTO
+\begin{document}
+\frenchspacing
+\maketitle
+
+% ABSTRACT
+\input{abstract}
+\thispagestyle{empty}
+\newpage
+
+\textual
+\pagestyle{simple}
+
+% INTRODUCAO
+\input{introducao}
+
+% SEGUNDA SECAO
+\input{revisao}
+
+% TERCEIRA SECAO
+\input{analise}
+
+% QUARTA SECAO
+\input{resultados}
+
+% QUINTA SECAO
+\input{discussao}
+
+% CONCLUSAO
+\input{conclusao}
+
+\postextual
+
+% REFERENCIAS
+\bibliography{biblio}
+
+\end{document}
